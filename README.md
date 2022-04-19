@@ -12,6 +12,8 @@ Several options like "search and replace" is removed, but can be adapted again.
 # The idea is to bring documentation straight into the source code. 
 # To document complex code, pictures are really helpfull.
 
+![main](https://user-images.githubusercontent.com/44880102/164116334-8c44b99e-7546-41cb-b58d-efc4d370863e.jpg)
+
 ![readme](https://user-images.githubusercontent.com/44880102/164114480-c4a909ec-5672-41ec-898b-ee799d59afa9.jpg)
 
 An easy example is provided as QLexer widget.
