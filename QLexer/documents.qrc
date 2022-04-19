@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>documents/coding_is_hard.gif</file>
+    </qresource>
+</RCC>
