@@ -9,8 +9,11 @@ Originally written by : https://github.com/pbek/qmarkdowntextedit subclassed as 
 This version uses a subclassed QTextEdit widget wich can insert pictures into the c, c++ source and header files.
 Several options like "search and replace" is removed, but can be adapted again.
 
-# The idea is to bring documentation straight into the source code. 
-# To document complex code, pictures are really helpfull.
+
+### The idea is to bring documentation straight into the source code. 
+### To document complex code, pictures are really helpfull.
+
+### Let's go for a ride and see if it works !
 
 ![main](https://user-images.githubusercontent.com/44880102/164116334-8c44b99e-7546-41cb-b58d-efc4d370863e.jpg)
 
