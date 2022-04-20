@@ -41,3 +41,26 @@ void MainWindow::on_pushButton_get_the_tokens_pressed()
     TokenIzer *theTokenIzer = new TokenIzer();
     theTokenIzer->getTokens("theSource.cpp","theTokenOutput.txt");
 }
+
+#include <stdio.h>
+//! More info at : https://www.codeproject.com/articles/15971/using-inline-assembly-in-c-c
+void MainWindow::on_pushButton_assembly_tour_pressed()
+{
+    int no = 100, val ;
+        asm ("movl %1, %%ebx;"
+             "movl %%ebx, %0;"
+             : "=r" ( val )        /* output */
+             : "r" ( no )         /* input */
+             : "%ebx"         /* clobbered register */
+         );
+    std::cout<<"result:"<<val<<std::endl;
+}
+
+
+
+
+
+
+
+
+

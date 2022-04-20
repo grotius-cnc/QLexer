@@ -19,6 +19,8 @@ private slots:
 
     void on_pushButton_get_the_tokens_pressed();
 
+    void on_pushButton_assembly_tour_pressed();
+
 private:
     Ui::MainWindow *ui;
 };
