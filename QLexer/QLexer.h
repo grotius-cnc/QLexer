@@ -2,7 +2,7 @@
 #define QLEXER_H
 
 #include "QTextEdit"
-#include "markdownhighlighter.h"
+#include "markdown/markdownhighlighter.h"
 
 class QLexer : public QTextEdit
 {

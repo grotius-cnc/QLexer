@@ -15,6 +15,10 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+
+    void on_pushButton_get_the_tokens_pressed();
+
 private:
     Ui::MainWindow *ui;
 };

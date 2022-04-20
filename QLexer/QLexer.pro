@@ -12,14 +12,15 @@ SOURCES += \
     QLexer.cpp \
     main.cpp \
     mainwindow.cpp \
-    markdownhighlighter.cpp \
-    qownlanguagedata.cpp
+    markdown/markdownhighlighter.cpp \
+    markdown/qownlanguagedata.cpp \
 
 HEADERS += \
     QLexer.h \
+    tokenizer/TokenIzer.h \
     mainwindow.h \
-    markdownhighlighter.h \
-    qownlanguagedata.h
+    markdown/markdownhighlighter.h \
+    markdown/qownlanguagedata.h \
 
 FORMS += \
     mainwindow.ui
