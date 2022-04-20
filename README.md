@@ -28,7 +28,10 @@ An easy example is provided as QLexer widget.
 The tokenizer is basic and works ! Token output is below. The illegal character has to do with an empty line, this is ok for now.
 This proves a integrated documenatation into the source files is not a problem at all. Who expected that?
 
-I think the next example will be using a inline assembly like : https://www.codeproject.com/articles/15971/using-inline-assembly-in-c-c
+Included is a tiny inline assembly example : https://www.codeproject.com/articles/15971/using-inline-assembly-in-c-c
+Interesting : https://llvm.org/Features.html
+Interseting : https://p403n1x87.github.io/getting-started-with-x86-64-assembly-on-linux.html
+
 
 Token output of file `~/documents/input.cpp`
 
