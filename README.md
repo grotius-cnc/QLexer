@@ -1,8 +1,8 @@
 # QLexer
 lexical analysis, lexing or tokenization is the process of converting a sequence of characters.
-This part does not include the tokenization yet, it includes the MarkDown part.
 
 https://en.wikipedia.org/wiki/Markdown
+https://en.wikipedia.org/wiki/Lexical_analysis#Tokenization
 
 Originally written by : https://github.com/pbek/qmarkdowntextedit subclassed as QPlainTextEdit widget.
 
@@ -19,3 +19,181 @@ Several options like "search and replace" is removed, but can be adapted again.
 An easy example is provided as QLexer widget.
 
 ![screen](https://user-images.githubusercontent.com/44880102/164114645-49fc5d5e-d6ce-44ed-9e23-4f51c51bbf05.jpg)
+
+The tokenizer is basic and works !
+
+
+21:34:21: /home/user/build-QLexer-Desktop-Debug/QLexer exited with code 0
+
+21:35:09: Starting /home/user/build-QLexer-Desktop-Debug/QLexer ...
+The text:```cpp
+
+//! Documentation :
+
+￼
+
+#include <iostream>
+
+int main()
+{
+  bool Ali88 = true;
+  int _hiTa=1395;
+  float ehsan_vi;
+  ehsan_vi=12.34;
+
+  for(int i=0;i<100;i++)
+  cout<<"Hi"<<A[i];
+  //A[i] has not been declared!
+
+  switch(Ali88)
+  {
+    case true:
+    cout<<'Hita';
+    break;
+
+    case false:
+    cout<<"Hita";
+    break;
+
+    default:
+    signed long double test_;
+    test_=-19;
+    ehsan_vi+=_hita+test;
+    break;
+  }
+  /*
+  this is
+  a /multiline*
+  comment
+  */
+  std::cout<<"Give me the TokenIzer"<<std::endl;
+  return 0;
+}
+
+
+```
+
+
+
+``
+`
+cpp
+#
+include
+<
+iostream
+>
+Illegal character: -17Illegal character: -65Illegal character: -68int
+main
+(
+)
+{
+bool
+Ali88
+=
+true
+;
+int
+_hiTa
+=
+1395
+;
+float
+ehsan_vi
+;
+ehsan_vi
+=
+12
+.
+34
+;
+for
+(
+int
+i
+=
+0
+;
+i
+<
+100
+;
+i
+++
+)
+cout
+<
+<
+"Hi"
+<
+<
+A
+[
+i
+]
+;
+switch
+(
+Ali88
+)
+{
+case
+true
+:
+cout
+<
+<
+'Hita'
+;
+break
+;
+case
+false
+:
+cout
+<
+<
+"Hita"
+;
+break
+;
+default
+:
+signed
+long
+double
+test_
+;
+test_
+=
+-
+19
+;
+ehsan_vi
++
+=
+_hita
++
+test
+;
+break
+;
+}
+std
+::
+cout
+<
+<
+"Give me the TokenIzer"
+<
+<
+std
+::
+endl
+;
+return
+0
+;
+}
+``
+`
