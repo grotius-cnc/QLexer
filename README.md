@@ -29,7 +29,9 @@ The tokenizer is basic and works ! Token output is below. The illegal character 
 This proves a integrated documenatation into the source files is not a problem at all. Who expected that?
 
 Included is a tiny inline assembly example : https://www.codeproject.com/articles/15971/using-inline-assembly-in-c-c
+
 Interesting : https://llvm.org/Features.html
+
 Interseting : https://p403n1x87.github.io/getting-started-with-x86-64-assembly-on-linux.html
 
 
