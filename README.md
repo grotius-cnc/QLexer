@@ -32,7 +32,7 @@ Included is a tiny inline assembly example : https://www.codeproject.com/article
 
 Interesting : https://llvm.org/Features.html
 
-Interseting : https://p403n1x87.github.io/getting-started-with-x86-64-assembly-on-linux.html
+Interesting : https://p403n1x87.github.io/getting-started-with-x86-64-assembly-on-linux.html
 
 
 Token output of file `~/documents/input.cpp`
