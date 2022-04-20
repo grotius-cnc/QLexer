@@ -23,12 +23,14 @@ An easy example is provided as QLexer widget.
 
 ![screen](https://user-images.githubusercontent.com/44880102/164114645-49fc5d5e-d6ce-44ed-9e23-4f51c51bbf05.jpg)
 
+`~/documents/input.cpp` is a sample file to be processed by the TokenIzer.h file.
+
 The tokenizer is basic and works ! Token output is below. The illegal character has to do with an empty line, this is ok for now.
 This proves a integrated documenatation into the source files is not a problem at all. Who expected that?
 
 I think the next example will be using a inline assembly like : https://www.codeproject.com/articles/15971/using-inline-assembly-in-c-c
 
-Token output:
+Token output of file `~/documents/input.cpp`
 
 ```
 
